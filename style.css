@@ -68,3 +68,23 @@ input {
   width: 100%;
   max-height: 400px;
 }
+.meme- {
+  position: relative;
+  z-index: -1;
+}
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 3px 5px 19px black;
+}
+.bottom {
+  bottom: 0;
+}
